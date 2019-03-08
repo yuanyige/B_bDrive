@@ -1,0 +1,209 @@
+
+/************************************** BasicWindow **************************************/
+
+/**********TitleLabel**********/
+
+QTitleLabel{
+        /*background-color: Gainsboro;*/
+        background-color: rgba(0,0,0,0);
+        font: 100 12pt;
+        border-radius:15px;
+}
+
+
+
+/**********TitleButton**********/
+
+QTitleButton{
+        background-color: rgba(255, 255, 255, 0);      
+        border: 0px;
+        font: 100 10pt;     
+}
+QTitleButton#CloseButton{
+        color: #D32424;
+}
+QTitleButton#MaxButton{
+        color:rgba(95,158,160,150);
+}
+
+QTitleButton#MinButton{
+        color:rgba(255,255,0,150);
+}
+
+QTitleButton#MinButton:hover{
+        background-color: #D0D0D1;
+        border: 15px;
+        font: 100 10pt;
+        color: black;
+}
+QTitleButton#MaxButton:hover{
+        background-color: #D0D0D1;
+        border: 15px;
+        font: 100 10pt;
+        color: black;
+}
+QTitleButton#CloseButton:hover{
+        background-color: #D32424;
+        color: white;
+        border: 15px;
+        font: 100 10pt;
+        border-top-right-radius: 10px;
+}
+
+
+/************************************** LogWindow **************************************/
+
+/********** Input **********/
+
+QTextInput{
+        background-color:rgba(255,255,255,150);
+        color:rgba(0,0,0,150);
+        border-radius: 10px;
+}
+
+/********** Button **********/
+
+QButton{       
+        border-radius: 10px;
+}
+
+QButton#LoginButton{
+        background-color:rgba(95, 158,160,150);
+}
+
+QButton#LoginButton:hover{
+        background-color:#87CEFA;
+}
+
+QButton#SignupButton{
+        background-color:rgba(255,255,155,150);
+}
+
+QButton#SignupButton:hover{
+        background-color:#87CEFA;
+}
+
+QButton#BackButton{
+        background-color:rgba(95, 158,160,150);
+}
+
+QButton#BackButton:hover{
+        background-color:#87CEFA;
+}
+
+
+/********** Label **********/
+
+QTextLabel{
+        color:rgba(255,255,255,150);
+}
+QTextLabel#WelcomeLabel{
+        font-size:21px;   
+}
+
+/************************************** MainWindow **************************************/
+
+/********** Button **********/
+
+QButton#SynButton{
+        background-color:rgba(95, 158,160,150);
+}
+
+QButton#SynButton:hover{
+        background-color:#87CEFA;
+}
+
+QButton#LogoutButton{
+        background-color:rgba(255,255,155,150);
+}
+
+QButton#LogoutButton:hover{
+        background-color:#87CEFA;
+}
+
+QButton#DirBackButton{
+        border-radius: 11px;
+        background-color:rgba(100,184,255,100);
+}
+
+QButton#DirBackButton:hover{
+        border-radius: 11px;
+        background-color:#87CEFA;
+}
+
+QButton#RefreshButton{
+        border-radius: 11px;
+        background-color:rgba(0,205,102,100);      
+}
+
+QButton#RefreshButton:hover{
+        border-radius: 11px;
+        background-color:#87CEFA;
+}
+
+QButton#HelpButton{
+        border-radius: 11px;
+        background-color:rgba(255,255,155,100);      
+}
+
+QButton#HelpButton:hover{
+        border-radius: 11px;
+        background-color:#87CEFA;
+}
+
+/**********MenuButton**********/
+QMenuButton{
+        border-color: rgba(255, 255, 0,255);
+        background-color:rgba(50,50,50,150);
+        color:rgba(255,255, 255,200);
+        font-size:13px;
+}
+
+/********** Input **********/
+
+QTextInput#DirInput{
+        background-color:rgba(100,100,100,150);
+        color:rgba(50,50,50,255);
+        border-radius: 5px;
+}
+
+
+/********** Label **********/
+
+QTextLabel#FileLabel{
+        color:rgba(255,255,255,200);
+        font: 10px
+}
+
+QLabel#SearchLabel{
+        background-image:url(./img/search.png);
+}
+
+QLabel#Display{
+        background-color:rgba(0, 0, 0, 180);
+        color:rgba(255, 255, 255, 100);
+        font-weight: bold;
+        text-decoration: underline；
+}
+
+
+/********** Others **********/
+
+QStackedWidget{
+        /*background-color:rgba(255, 0, 0, 0);*/
+}
+
+QScrollArea{
+        border:1px;
+        background-color:rgba(0, 0, 0, 0);
+}
+
+QWidget#RSpace{
+        background-color:rgba(0, 0, 0, 180);
+}
+
+QWidget#FileSpace{
+        background-color:rgba(0, 0, 0, 0);
+}
+
+
